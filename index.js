@@ -71,6 +71,20 @@ const apiCall = async(cityName)=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 searchElem.addEventListener('click',()=>{
     
      
@@ -78,10 +92,26 @@ searchElem.addEventListener('click',()=>{
     apiCall(cityName)
     inputElem.value=""
     inputElem.focus()
+  
     
     // console.log(cityName); // here we r getting the input value in console after clicking on the search.
     
+//     
+
    
     
     
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
