@@ -46,7 +46,7 @@ p{
 
 
 .container{
- width: 50%;
+ width: 60%;
    /* background-color: #161616; */
    border-radius: 20px;
     box-shadow: rgba(194, 188, 159, 0.2) 0px -15px 37px,
@@ -97,14 +97,15 @@ letter-spacing: 1.5px;
 
     
 }
-
+/* 
  @media screen  and (max-width:1024px){
    .input-box{
     width:40%;
     font-size: 10px;
+    margin-right: 10px;
    }
    #search{
-    padding: 3px 6px;
+    padding: 5px 10px;
     font-weight: 800;
     color: #e5e0e0;
     margin-top: 10px;
@@ -115,4 +116,37 @@ letter-spacing: 1.5px;
     
 }
 
+ */
 
+
+ @media screen  and (width<1025px){
+    .container{
+       width:40%;
+    }
+
+    .input-box{
+        width:50%;
+    }
+    #search{
+     padding:15px 20px ;
+    }
+
+    
+ }
+
+ @media screen and (width<=896px) {
+
+   
+     .container{
+        width:40%; 
+       
+    }
+
+     .input-box{
+        width:30%
+    }
+    #search{
+        padding: 5px 10px;
+    }  
+    
+ }
