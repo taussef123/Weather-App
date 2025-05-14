@@ -46,7 +46,7 @@ p{
 
 
 .container{
-width: 500px;
+width: 600px;
 height: min-content;
 padding:10px 20px;
  
@@ -95,8 +95,9 @@ letter-spacing: 1.5px;
 }
 
 &::placeholder{
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(132, 127, 127);
+   
    
     
     
